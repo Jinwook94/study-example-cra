@@ -1,4 +1,4 @@
-function App() {
+function Props() {
     return (
         <>
             <NoBraces 이름="리액트" 나이="20"/>
@@ -25,4 +25,4 @@ const Braces = ({이름, 나이}) => (
     </>
 )
 
-export default App;
+export default Props;
